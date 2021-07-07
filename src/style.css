@@ -1,0 +1,99 @@
+  
+    
+
+header {
+    width: 1157px;
+    height: 200px;
+    background:rgb(12, 0, 48)
+   
+}
+body {
+    
+    width: 1157px;
+    height: 200px;
+    background:rgb(12, 0, 48)
+}
+
+h1 {
+    position: absolute;
+    width: 1193px;
+    height: 129px;
+    left: 42px;
+    top: 10px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 60px;
+    color: #F1F1F1;
+    
+  }
+
+  #cardNumber {
+
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    left: 118px;
+    top: 550px;
+    background: #FFFBFB;
+  }
+
+  #validar{
+   
+   width: 265px;
+   height: 51px;
+   left: 264px;
+   top: 670px;
+   background: #1C96EF;
+   position: absolute;
+   width: 320px;
+   height: 50px;
+   left: 277px;
+   top: 650px;
+   font-family: Manrope;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 50px;
+   color: #0a0909;
+   
+  }
+
+  input::placeholder {
+    color: grey;
+    font-size: 2.0em;
+    font-style: italic;
+    text-align: center;
+    line-height: 100px
+  }
+
+  
+  header{
+    position: absolute;
+    width: 533px;
+    height: 122px;
+    left: 1200px;
+    top: 29px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 120px;
+    color: #FFFFFF;
+  }
+  
+  #imagentarjeta{
+  position: absolute;
+  width: 660px;
+  height: 412px;
+  left: 874px;
+  top: 394px;
+  }
+  
+
+  
+
+ 
+
+
