@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Validación de tarjeta</title>
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript"></script>
-  </head>
-  <body>
-    <header>E-Puntos</header>
-    <main>
-      <h1> Programa BanMid</h1>
-  
-      <div id="first">
-        <input
-          class="validator"
-          type="number"
-          id="cardNumber"
-          name="NumeroDeTarjeta"
-          placeholder="Numero de Tarjeta"
-          required /><br />
 
-        <br /><br />
-        <button id="validar"><strong>Registrar</strong></button>
-        <div class="Circle"></div>
-        <div class="Circle2"></div>
-        <div class="rectangular">
-          <p class="numberregister" id="lastnumber">#### #### #### 1234</p>
-          <img src="/Users/David/Downloads/BanMid2j.jpeg">
-        </div>
-        <div class="description">
-        <p class="registeruser" id="user">Registro de Clientes</p>
+<head>
+  <meta charset="utf-8" />
+  <title>Validación de tarjeta</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript"></script>
+</head>
+<body>
+  <header>E-Puntos</header>
+  <main>
+    <h1> Programa BanMid</h1>
+
+    <div id="first">
+      <input class="validator" type="number"  id="cardNumber" name="NumeroDeTarjeta" placeholder="Numero de Tarjeta" 
+    />
+      <div>
+        <p id="insertCard">Inserte número de tarjeta</p>
       </div>
-      <div class="insertCardNumber">
-        <p class="insert" id="insertCard">Inserte número de tarjeta</p>
-      
-      </div>
+      <button id="validar"><strong>Registrar</strong></button>
+      <p id="screenNumber">#### #### #### 1234</p>
     </div>
-      <div id="second">
-      <div class="message">
+    <div class="Circle"></div>
+    <div class="Circle2"></div>
+    <div class="rectangular"></div>
+    <img src="img/BanMid2.png" id="imagen" >
+    <img src="img/BanMid2.png" id="logo" >
+    <img src="img/chip.png" id="chip">
+    <div>
+      <p id="user">Registro de Clientes</p>
+    </div>
+    <div id="second">
+      <div>
         <p id="message"></p>
-
         </div>
-     
-      
-    </div>
+        <div>
+        <img src="img/ok.png" id="imagenValidation" >
+        <img src="img/wrong.png" id="imagenValidation2" ></div>
+        <button id="register2"><strong>Registrar nueva tarjeta</strong></button>
+        <p class="numberRegister" id="lastnumber">#### #### #### 1234</p>
         
-    </main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

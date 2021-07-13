@@ -5,6 +5,14 @@ body {
     background: #110026;
 }
 
+#first{
+   display:block
+}
+
+#second{
+  display: none
+}
+
 h1 {
   position: absolute;
   left: 42px;
@@ -41,6 +49,7 @@ h1 {
    height: 51px;
    left: 259px;
    top: 670px;
+   border-radius: 5%;
    background: #1C96EF;
    position: absolute;
    width: 320px;
@@ -94,7 +103,7 @@ h1 {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    top: 250px;
+    top: 230px;
     right: 500px;
     position: absolute;
     background: #08B;
@@ -102,26 +111,32 @@ h1 {
   }
   
   .rectangular {
-    border-radius: 20%;
+    border-radius: 8%;
     position: absolute;
     width: 400px;
     height: 250px;
     left: 870px;
-    top: 394px;
-    background: linear-gradient(to bottom, #c7417b, #553772);
-   
-/* Note: backdrop-filter has minimal browser support */
+    top: 454px;
+    background: linear-gradient(to bottom,#dbe7ff, #62249c);
+   }
 
 
-
-  }
-
-  
-
- .numberregister {
+ .numberRegister {
   position: absolute;
-  left: 60px;
-  top: 150px;
+  left: 920px;
+  top: 590px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #faf5f5;
+   z-index: 1;
+
+ }
+ #screenNumber{
+  position: absolute;
+  left: 920px;
+  top: 600px;
   font-family: Manrope;
   font-style: normal;
   font-weight: bold;
@@ -131,12 +146,41 @@ h1 {
 
  }
 
- .message {
-   background: red;
+ /*#message 
    top: 400px;
+   left:80px;
    position:absolute;
-   
+   font-family: Manrope;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 5rem;*/
+ 
 
+ .valid{
+color: #faf5f5;
+top: 550px;
+   left:150px;
+   position:absolute;
+   font-family: Manrope;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 5rem;
+   z-index: 2;
+   -webkit-text-stroke: 2px rgb(17, 248, 94);
+   
+ 
+ }
+ .invalid{
+  color: #faf5f5;
+top: 550px;
+   left:120px;
+   position:absolute;
+   font-family: Manrope;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 5rem;
+   z-index: 2;
+   -webkit-text-stroke: 2px rgb(248, 17, 17);
  }
 
  #user{
@@ -157,13 +201,82 @@ h1 {
   top: 380px;
   font-family: Manrope;
   font-style: normal;
-  
+
   font-size: 3.4rem;
   color:  #FFFFFF;
   z-index: 1;
+ }
 
+
+
+ #imagen{
+  position: absolute;
+  left: 920px;
+  top: 400px;
+  z-index: 0;
+  width: 300px;
+  height: 300px;
+  opacity: 0.5;
+ }
+
+ #logo{
+  position: absolute;
+  left: 930px;
+  top: -60px;
+  z-index:2;
+  width: 500px;
+  height: 500px;
 
  }
  
+ #chip{
+  position: absolute;
+  left: 890px;
+  top: 500px;
+  z-index: 0;
+  width: 70px;
+  height: 70px;
+
+ }
+
+ #register2{
+  width: 265px;
+  height: 51px;
+  left: 259px;
+  top: 720px;
+  border-radius: 5%;
+  background: #1C96EF;
+  position: absolute;
+  width: 520px;
+  height: 50px;
+  left: 137px;
+  top: 690px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #0a0909;
+ }
+
+ #imagenValidation{
+   position:absolute;
+   width:150px;
+   height:150px;
+   top:390px;
+   left:330px;
+   
+
+ }
+
+ #imagenValidation2{
+  position:absolute;
+  width:130px;
+  height:130px;
+  top:390px;
+  left:330px;
+
+}
+
 
 

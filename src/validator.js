@@ -5,7 +5,7 @@ const validator = {
     var str_reverse = str.split("").reverse().join(""); // Hace split, reverce y vuelve a unir al string CreditNumber
     var pares = [];
     var impares = [];
-
+    
     for (var i = 0, len = str_reverse.length; i < len; i += 1) {
       //sacamos la longitud del string y damos la orden del bucle
 
