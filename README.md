@@ -21,7 +21,8 @@ I. Los usuarios de esta pagina son clientes del banco “BanMid” que desean re
 II. En la pagina los usuarios podran registrar su tarjeta tan solo introduciendola correctamente y dando click en el boton registrar,teniendo como resultado un mensaje de tarjeta valida. Si el usuario colocara una tarjeta invalida el registro no se llevaria acabo y la pagina mostraria un mensaje de tarjeta invalida.
 
 III. Prototipo en papel
-![Prototipo](/src/img/figma.png "Prototipo Figma")
+
+![Prototipo](/src/img/prototipo.jpeg "Prototipo")
 
 IV. Feedback
  
@@ -33,3 +34,5 @@ IV. Feedback
 - [ ] Acomodar el botón registrar otra tarjeta.
 
  V. Prototipo Final 
+
+ ![Prototipo Figma](/src/img/figma.png "Prototipo Figma")
