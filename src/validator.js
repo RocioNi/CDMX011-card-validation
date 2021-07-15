@@ -4,7 +4,7 @@ const validator = {
     let pares = []; //Array
     let impares = []; //Array
 
-    for (var i = 0, len = str_reverse.length; i < len; i += 1) {
+    for (var i = 0; i < str_reverse.length; i++) {
       //sacamos la longitud del string  (numero de tarjeta) y damos la orden de iteracion
 
       if (i % 2 == 0) {
